@@ -6,7 +6,12 @@ public class Q2
     {
         Scanner in = new Scanner(System.in);
         Float grade = in.nextFloat();
-        String result = ( grade == 4.0 || grade == 3.5 || grade == 3.0 || grade == 2.5 || grade == 2.0 || grade == 1.5 || grade == 1.0 ||grade == 0.0) ? "true":"false";
+        String result = passgrade(grade);
         System.out.println(result);
+    }
+
+    public static String passgrade (float grade){
+        String result = ( grade == 4.0 || grade == 3.5 || grade == 3.0 || grade == 2.5 || grade == 2.0 || grade == 1.5 || grade == 1.0 ||grade == 0.0) ? "true":"false";
+        return result;
     }
 }
