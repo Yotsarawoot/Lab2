@@ -14,7 +14,7 @@ public class Q5 {
         System.out.println(Max);
         int Average = averageNum(Num, SumNumber);
         System.out.println(Average);
-        
+        in.close();
     }
 
     public static int LargestNum(int[] Num, int SumNumber)

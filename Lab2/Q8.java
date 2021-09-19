@@ -13,5 +13,6 @@ public class Q8 {
         }
         String result = (count == 2) ? "A prime number":"Not a prime number";
         System.out.println(result);
+        in.close();
     }
 }

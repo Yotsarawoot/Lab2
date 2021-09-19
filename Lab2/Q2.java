@@ -8,6 +8,7 @@ public class Q2
         Float grade = in.nextFloat();
         String result = passgrade(grade);
         System.out.println(result);
+        in.close();
     }
 
     public static String passgrade (float grade){

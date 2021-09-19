@@ -8,6 +8,7 @@ public class Q3
         Scanner in = new Scanner(System.in);
         int Celsius = in.nextInt();
         printWeather(Celsius);
+        in.close();
     }
 
     public static void printWeather (int Celsius)

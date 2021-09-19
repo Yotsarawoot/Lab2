@@ -8,6 +8,7 @@ public class Q4 {
         int Integer = in.nextInt();
         int Sum = evenSum1toN(Integer);
         System.out.println(Sum);
+        in.close();
     }
 
     public static int evenSum1toN (int Integer)

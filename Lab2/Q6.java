@@ -24,6 +24,7 @@ public class Q6 {
 
         }
         System.out.print(Cost);
+        in.close();
     }
     
 }
