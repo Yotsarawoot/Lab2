@@ -8,6 +8,7 @@ class GetInputFromUser
         System.out.println("Your entered integer "+a);
         float b = in.nextFloat();
         System.out.println("Your entered float "+b);
+        in.close();
     }
 }
 
