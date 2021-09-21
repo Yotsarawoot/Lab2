@@ -1,3 +1,5 @@
+package Lab2;
+
 public class Q1 
 {
     public static float CelsiusToFarenhien (float Celsius)
