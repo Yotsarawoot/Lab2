@@ -19,7 +19,7 @@ public class ClubManagingSystemTest {
         System.out.println(club.getHighestMemberClub().getName());
         System.out.println(club.getAllMember());
         System.out.println(club.determineAllBudget());
-        student.advertise();
+        ClubManagingSystem.advertiseClub(student);
         club.advertiseClub(1);
 
     }
