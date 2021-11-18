@@ -1,4 +1,4 @@
-package Lab6.Q2;
+package Lab8.Q1;
 
 public class MarketingClub extends Club {
     private int budget;
